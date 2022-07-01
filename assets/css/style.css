@@ -1,75 +1,318 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    text-align: center;
-    margin: 0 auto;
-    width: 100vw;    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header h2{
-    font-size: 13px;
-    font-weight: lighter;
-    padding-top: 5px;
-    padding-bottom: 25px;    
+a {
+  text-decoration: none;
 }
 
-header h1{
-font-size: 60px;
-font-weight: lighter;
-width: 300px;
-margin: 0 auto;
-padding-bottom: 25px;
+header {
+  text-align: center;
+  margin: 0 auto;
+  width: 100vw;
 }
 
-header div{
-    padding-bottom: 40px;
-}
-header p{
-    font-size: 80px;
-    padding-bottom: 40px;
-}
-main{
-    margin: 0 auto;
+header h2 {
+  font-size: 13px;
+  font-weight: lighter;
+  padding-top: 5px;
+  padding-bottom: 25px;
 }
 
-.A{
-    background-image: url(../img/portfolio2.png);
-    background-size: cover;
-    padding-top: 30%;
-    width: 100vw;
-        
+header h1 {
+  font-size: 60px;
+  font-weight: lighter;
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 25px;
 }
-main section p{
-    margin-top: 20%;
-    margin-left: 20%;
-}
-.A p:nth-child(1){
-    color: darkgray;
-    font-size: 20px;    
-}
-.A p:nth-child(2){
-    color: white;
-    font-size: 112px;
-}
-.A p:nth-child(3){
-    color: darkgray;
-    font-size: 20px;  
-}
-.A p:nth-child(4){
-    color: rgb(255, 255, 255);
-    font-size: 16px; 
-    border: 1px solid darkgray;
-    width: 96px;    
-    height: 52px;
-    text-align: center;
-    padding-top: 15px;
-}
-.A p:nth-child(5){
-    color: darkgray;
-    font-size: 165px;
-    margin-top: 0px;    
-}  
 
+header div {
+  padding-bottom: 40px;
+}
+
+header p {
+  font-size: 80px;
+  padding-bottom: 40px;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.A {
+  background-image: url(../img/portfolio2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+main section p {
+  margin-top: 3%;
+  margin-left: 20%;
+}
+
+.A p:nth-child(1) {
+  padding-top: 17%;
+  color: darkgray;
+  font-size: 20px;
+}
+
+.A p:nth-child(2) {
+  color: white;
+  font-size: 112px;
+}
+
+.A p:nth-child(3) {
+  color: darkgray;
+  font-size: 20px;
+}
+
+.A p:nth-child(4) {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border: 1px solid darkgray;
+  width: 96px;
+  height: 52px;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 6%;
+}
+
+.A p:nth-child(4) a {
+  color: white;
+  text-decoration: none;
+}
+
+.A p:nth-child(5) {
+  color: darkgray;
+  text-decoration: transparent 80%;
+  font-size: 165px;
+  margin-top: 0px;
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+/* page3 */
+
+.B {
+  background-image: url(../img/portfolio3.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.B p:nth-child(1) {
+  padding-top: 17%;
+  margin-top: 0;
+  font-size: 20px;
+  color: #666666;
+}
+
+.B p:nth-child(2) {
+  font-size: 112px;
+}
+
+.B p:nth-child(3) {
+  color: #666666;
+  font-size: 20px;
+}
+
+.B p:nth-child(4) {
+  color: black;
+  font-size: 16px;
+  border: 2px solid black;
+  width: 96px;
+  height: 52px;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 6%;
+}
+
+.B p:nth-child(4) a {
+  color: black;
+}
+
+.B p:nth-child(5) {
+  color: #666666;
+  text-decoration: transparent 80%;
+  font-size: 165px;
+  margin-top: 0px;
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+main p:first-child::before {
+  content: "";
+  background-color: #666666;
+  height: 2px;
+  width: 17px;
+  display: inline-block;
+  margin-right: 0.5%;
+  margin-bottom: 0.3%;
+}
+
+/* page4 */
+
+.C {
+  background-image: url(../img/portfolio4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.C p:nth-child(1) {
+  padding-top: 17%;
+  color: darkgray;
+  font-size: 20px;
+}
+
+.C p:nth-child(2) {
+  color: white;
+  font-size: 112px;
+}
+
+.C p:nth-child(3) {
+  color: darkgray;
+  font-size: 20px;
+}
+
+.C p:nth-child(4) {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border: 1px solid darkgray;
+  width: 96px;
+  height: 52px;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 6%;
+}
+
+.C p:nth-child(4) a {
+  color: white;
+  text-decoration: none;
+}
+
+.C p:nth-child(5) {
+  color: darkgray;
+  text-decoration: transparent 80%;
+  font-size: 165px;
+  margin-top: 0px;
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+/****Section B****/
+
+.D {
+  background-image: url(../img/portfolio5.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.D p:nth-child(1) {
+  padding-top: 17%;
+  margin-top: 0;
+  font-size: 20px;
+  color: #666666;
+}
+
+.D p:nth-child(2) {
+  font-size: 112px;
+}
+
+.D p:nth-child(3) {
+  color: #666666;
+  font-size: 20px;
+}
+
+.D p:nth-child(4) {
+  color: black;
+  font-size: 16px;
+  border: 2px solid black;
+  width: 96px;
+  height: 52px;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 6%;
+}
+
+.D p:nth-child(4) a {
+  color: black;
+}
+
+.D p:nth-child(5) {
+  color: #666666;
+  text-decoration: transparent 80%;
+  font-size: 165px;
+  margin-top: 0px;
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+main p:first-child::before {
+  content: "";
+  background-color: #666666;
+  height: 2px;
+  width: 17px;
+  display: inline-block;
+  margin-right: 0.5%;
+  margin-bottom: 0.3%;
+}
+
+/***Footer***/
+
+footer section:first-child {
+  padding-top: 130px;
+  background-color: #000000;
+}
+
+h2 {
+  font-size: 180px;
+  color: white;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.marketing {
+  color: #666666;
+  width: 580px;
+  font-size: 22px;
+  margin-left: 1100px;
+  line-height: 180%;
+  padding-bottom: 100px;
+}
+
+.contact a {
+  color: white;
+  font-size: 60px;
+  margin-left: 1100px;
+  padding-bottom: 100px;
+}
+
+/***social***/
+.social_section {
+  text-align: center;
+  padding-top: 230px;
+  padding-bottom: 230px;
+}
+
+.social li a {
+  color: #000;
+}
+
+.social li {
+  padding-top: 230px;
+  font-size: 160px;
+}
