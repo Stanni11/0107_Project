@@ -5,7 +5,8 @@
 }
 header{
     text-align: center;
-    margin: 0 auto;    
+    margin: 0 auto;
+    width: 100vw;    
 }
 
 header h2{
@@ -28,5 +29,47 @@ header div{
 }
 header p{
     font-size: 80px;
+    padding-bottom: 40px;
 }
+main{
+    margin: 0 auto;
+}
+
+.A{
+    background-image: url(../img/portfolio2.png);
+    background-size: cover;
+    padding-top: 30%;
+    width: 100vw;
+        
+}
+main section p{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.A p:nth-child(1){
+    color: darkgray;
+    font-size: 20px;    
+}
+.A p:nth-child(2){
+    color: white;
+    font-size: 112px;
+}
+.A p:nth-child(3){
+    color: darkgray;
+    font-size: 20px;  
+}
+.A p:nth-child(4){
+    color: rgb(255, 255, 255);
+    font-size: 16px; 
+    border: 1px solid darkgray;
+    width: 96px;    
+    height: 52px;
+    text-align: center;
+    padding-top: 15px;
+}
+.A p:nth-child(5){
+    color: darkgray;
+    font-size: 165px;
+    margin-top: 0px;    
+}  
 
